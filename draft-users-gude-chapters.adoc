@@ -5,18 +5,32 @@
   * What can I do with zot?
 . Getting Started
   * Prerequisites
-
-== Section 1 - Server Configuration
-
 . Get zot
   * Downloading zot Releases
   * Building zot from Source
 . The zot Command Tree
-. Logging Configuration
-. Network Configuration
+
+== Use Zot with your Development Team
+
+. Configuring your First Zot server.
+. Configuration Verification
 . Storage
   * Working with Local Storage
   * Working with s3 Storage
+. Startup zot and work with images.
+
+=== zli the zot CLI
+
+. What is zli?
+. Get zli
+  * Downloading zli Releases
+  * Building zli From Source
+. The zli Command Tree
+. Add regtries to zli
+
+== Serve Images to Other Teams 
+
+. TLS Configuration
 . Authentication
   * Authentication Options
   * Working Local Authentication
@@ -25,32 +39,22 @@
   * Preventing Automated Attacks with Failure Delay
 . Authorization
   * Setup Identity-based Authorization
-. Metrics
-  * Metrics Catalog
-. Syncing Registries
-. Clustering zot with remote stared storage
-  * _haproxy_ configuration
-  * _s3_ configuration
-. Configuration Verification
-. Extensions
-  * Image query/search support
-  * Image scanning support
-  * Scrub image repository
-
-
-== Section 2 - Working with zli
-
-. What is zli?
-. Get zli
-  * Downloading zli Releases
-  * Building zli From Source
-. The zli Command Tree
-. Add regtries to zli
 . Listing Images in a Registry
 . Scan Images for Known Vulnerabilities
-. The zli command tree
+. Syncing Registries
 
-== Section 3 - Working with zb
+
+== Monitoring and Troubleshooting Zot
+
+. Logging
+. Metrics
+  * Metrics Catalog
+
+== Securing zot
+
+. zot Security Configuration and Hardending
+
+=== Benchmarking zot with zb
 
 . What is zb?
 . Get zb
@@ -58,6 +62,17 @@
   * Building zb From Source
 . The zb Command Tree
 . Run Benchmarks with zb
+
+== Enterprise Wide zot
+
+. Clustering zot with remote stared storage
+  * _haproxy_ configuration
+  * _s3_ configuration
+
+. Extensions
+  * Image query/search support
+  * Image scanning support
+  * Scrub image repository
 
 == Section 4 - Advanced Topics Cookbook
 
